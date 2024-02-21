@@ -8,8 +8,7 @@ body {
     padding: 0;
     background-color: #4b4a4a;
     color: #fff;
-    height: 100%;
-    width: 100vh;
+    /* height: 100%; */
 }
 
 header {
@@ -123,13 +122,13 @@ a {
 }
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Media Queries for Mobile Layouts */
@@ -150,14 +149,106 @@ footer {
         padding: 10px;
     }
 
+    img:hover {
+        transform: none;
+        transition: none;
+    }
+
     img.fullscreen {
         top: 10%;
-        left: 10%;
-        width: 80%;
+        left: 0%;
+        width: 100%;
         height: 80%;
     }
 
-    .back-button {
+    .back-button {   
         top: 90%;
+        font-size: 24px; /* Increased font size */
+        padding: 15px 30px; /* Increased padding for a larger button */
     }
+}
+
+
+.tag.python {
+    background-color: #3572A5;
+    color: white;
+}
+
+.tag.pytorch {
+    background-color: #EE4C2C;
+    color: white;
+}
+
+.tag.csharp {
+    background-color: #0f5800;
+    color: white;
+}
+
+.tag.unity {
+    background-color: #222C37;
+    color: white;
+}
+
+.tag.tensorflow {
+    background-color: #FF6F00;
+    color: white;
+}
+
+.tag.nodejs {
+    background-color: #68A063;
+    color: white;
+}
+
+.tag.html {
+    background-color: #E34F26;
+    color: white;
+}
+
+.tag.css {
+    background-color: #1572B6;
+    color: white;
+}
+
+.tag.javascript {
+    background-color: #F7DF1E;
+    color: black;
+}
+
+.tag.d3js {
+    background-color: #F9A03C;
+    color: white;
+}
+
+.tag.mongodb {
+    background-color: #47A248;
+    color: white;
+}
+
+.tag.postgresql {
+    background-color: #336791;
+    color: white;
+}
+
+.tag.redis {
+    background-color: #D92B21;
+    color: white;
+}
+
+.tag.rabbitmq {
+    background-color: #FF6600;
+    color: white;
+}
+
+.tag.docker {
+    background-color: #2496ED;
+    color: white;
+}
+
+/* Common styles for all tags */
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
 }

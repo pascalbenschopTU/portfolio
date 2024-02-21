@@ -33,6 +33,9 @@
                     <div class="project-container">
                         <div class="project-container-left">
                             <h2>{{ project.title }}</h2>
+                            <div class="tags">
+                                <span class="tag" :class="getLanguageClass(language)" v-for="language in project.languages">{{ language }}</span>
+                            </div>
                             <p>{{ project.description }}</p>
                             <p><a :href="project.link">{{ project.link }}</a></p>
                         </div>
