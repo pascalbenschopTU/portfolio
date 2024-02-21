@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +9,7 @@ body {
     background-color: #4b4a4a;
     color: #fff;
     height: 100%;
+    width: 100vh;
 }
 
 header {
@@ -57,6 +62,7 @@ header {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 img:hover {
