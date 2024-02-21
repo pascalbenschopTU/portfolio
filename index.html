@@ -19,7 +19,6 @@
                 <section>
                     <h2>Personal details</h2>
                     <p>{{ portfolio.description }}</p>
-                    <p>{{ portfolio.name }}</p>
                     <p><a :href="portfolio.email">{{ portfolio.email }}</a></p>
                     <p><a :href="portfolio.linkedin">{{ portfolio.linkedin }}</a></p>
 
@@ -39,7 +38,7 @@
                         </div>
                         <div class="project-container-right">
                             <div class="project-images">
-                                <img :src="project.imageUrl" alt="Project Image" id="project_image" @error="handleImageError">
+                                <img :src="project.imageUrl" alt="" id="project_image" @error="handleImageError" @click="openFullscreenImage">
                             </div>
                         </div>
                     </div>
@@ -48,7 +47,7 @@
         </div>
         
         <footer>
-            <p>&copy; 2024 {{ portfolio.name }}</p>
+            <p>&copy; 2024 {{ portfolio.header }}</p>
         </footer>
     </div>
 
