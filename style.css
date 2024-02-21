@@ -12,6 +12,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .container {
@@ -123,4 +124,34 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Media Queries for Mobile Layouts */
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-left, .container-right {
+        padding: 10px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-container-left, .project-container-right {
+        padding: 10px;
+    }
+
+    img.fullscreen {
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+    .back-button {
+        top: 90%;
+    }
 }
