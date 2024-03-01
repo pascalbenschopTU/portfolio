@@ -1,0 +1,84 @@
+{
+    "data": {
+        "portfolio": {
+            "header": "Pascal Benschop",
+            "description": "msc Student at TU Delft",
+            "linkedin": "https://www.linkedin.com/in/pascal-benschop-bsc",
+            "email": "pascal3benschop@gmail.com",
+            "nationality": "Dutch",
+            "aboutMe": "I work hard in a team to make sure that we get the job done on time. I have a first certificate in English where I passed at level C1, my French and German are beginner level. My interest in technology started with Lego robots, then small game servers and now machine learning. I have experience with GIT, Docker, Kubernetes, SQL and I am eager to learn new technologies / software."
+        },
+        "projects": [
+            {
+                "title": "Bachelor thesis",
+                "languages": [
+                    "Python",
+                    "Tensorflow"
+                ],
+                "description": "In this project I found trade-offs between the efficiency and accuracy of object detection models on event-based data by comparing different input modalities. The trade-off shows that for a small loss in accuracy a model trained on events can be substantially faster than a model trained on standard RGB images.",
+                "link": "https://github.com/pascalbenschopTU/Event-based-object-detection",
+                "imageUrl": "assets/images/bachelor_thesis.jpg"
+            },
+            {
+                "title": "Master thesis",
+                "languages": [
+                    "Python",
+                    "Pytorch",
+                    "csharp",
+                    "Unity"
+                ],
+                "description": "For my master thesis I am researching why depth is useful for computer vision, for this thesis I am creating synthetic data and testing various models on semantic segmentation tasks. The goal is to find out if depth is useful for computer vision and if so, why. The synthetic data is created with Unity and the models are trained with Pytorch.",
+                "link": "",
+                "imageUrl": "assets/images/master_thesis.png"
+            },
+            {
+                "title": "Tanks",
+                "languages": [
+                    "NodeJS",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "description": "A front and backend application for an online multiplayer game, made with NodeJS. The goal was to use reinforcement learning to create a bot that could play the game. The game is a 2D shooter where the goal is to destroy the other player's tank.",
+                "link": "https://github.com/pascalbenschopTU/tank",
+                "imageUrl": "assets/images/tanks.png"
+            },
+            {
+                "title": "Data visualisation",
+                "languages": [
+                    "D3js",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "description": "Project for the course Data visualisation, made with D3.js. The goal for this project was to visualize water and land height data gathered from Rijkswaterstaat to get an idea of where the Netherlands could flood in the future.",
+                "link": "https://github.com/pascalbenschopTU/InfoVis",
+                "imageUrl": "assets/images/InfoVis.png"
+            },
+            {
+                "title": "Web-scale data management",
+                "languages": [
+                    "Python",
+                    "MongoDB",
+                    "PostgreSQL",
+                    "redis",
+                    "rabbitMQ",
+                    "docker"
+                ],
+                "description": "Project for the course Web-scale data management, made with Python, MongoDB, PostgreSQL, redis, rabbitMQ, and docker. The goal for this project was to create a scalable web application that could handle a large amount of concurrent users (up to 10000), while being consistent. The application consists of a Stock, Order and Payment microservice that interact with each other.",
+                "link": "https://github.com/pascalbenschopTU/WDM_project/",
+                "imageUrl": "assets/images/WebScaleProject.png"
+            },
+            {
+                "title": "Novel Environments",
+                "languages": [
+                    "csharp",
+                    "Unity"
+                ],
+                "description": "Project for the course Building Serious Games, destined for a psychology experiment, made with Unity and C#. In this project a virtual environment is created with procedural generation, the goal is to create a virtual environment that is as realistic as possible. The environment is used to test the effect of different environments on the human brain. The user can walk around in the environment, and depending on parameters at the start of the game, can take pictures or find lanterns as a task.",
+                "link": "https://github.com/pascalbenschopTU/NovelEnvironments",
+                "imageUrl": "assets/images/NovelEnvironments.png"
+            }
+        ]
+    }
+}
